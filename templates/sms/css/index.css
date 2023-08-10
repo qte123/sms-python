@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.header {
+    height: 80px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: rgb(47, 137, 255);
+    border: 1px solid #ffff;
+}
+
+.user {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.user img {
+    border-radius: 60px;
+    margin-top: 10px;
+}
+
+.nav {
+    float: left;
+    margin-left: 80px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 80px;
+    padding: 0 10px;
+    line-height: 80px;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+
+/* 侧边导航栏 */
+.center {
+    margin: 0px auto;
+}
+
+.center-nav {
+    float: left;
+    width: 200px;
+    height: 500px;
+    padding-top: 30px;
+    padding-right: 20px;
+    border-right: 1px dashed #000;
+}
+
+.center-nav li {
+    width: 180px;
+    height: 40px;
+    border: 1px solid rgb(209, 166, 166);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 35px;
+    background: #FFEFD5;
+}
+
+.center-nav li a {
+    font-size: 22px;
+    line-height: 40px;
+    color: rgb(250, 172, 56);
+    margin-left: 20px;
+}
+
+.center-nav li a:hover {
+    color: rgb(255, 102, 0);
+}
+
+/* 中间区域 */
+.center-table {
+    float: left;
+    width: 1000px;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 30px;
+    /* border: 1px solid #000; */
+    background-color: #fff;
+}
+
+.center-top {
+    width: 1000px;
+    height: 42px;
+}
+
+.center-top .text {
+    float: left;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* search搜索模块 */
+.search {
+    float: right;
+    width: 412px;
+    height: 42px;
+    /* background-color: skyblue; */
+    margin-right: 130px;
+}
+
+.search input {
+    float: left;
+    width: 345px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    color: #bfbfbf;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background-color: blue;
+    /* 按钮button默认有个边框需要我们手动去掉 */
+    border: 0;
+    background: url(../images/btn.png);
+}
+
+/* 添加模块 */
+.add button {
+    float: left;
+    margin-left: 80px;
+    width: 60px;
+    height: 30px;
+    /* text-align: center; */
+    border: 1px solid rgb(86, 176, 250);
+    border-radius: 10px;
+}
+
+.add button:hover {
+    background-color: rgb(164, 213, 247);
+}
+
+/* 表格区域 */
+table {
+    margin-top: 30px;
+}
+
+th, td {
+    width: 130px;
+    height: 30px;
+    text-align: center;
+}

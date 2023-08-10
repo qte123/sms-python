@@ -1,0 +1,105 @@
+body {
+    background: url(../images/bg.jpg) no-repeat center top fixed;
+}
+
+.rgba {
+    width: 500px;
+    height: 300px;
+    margin: 150px auto;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 35px;
+}
+
+.head {
+    height: 80px;
+    padding-top: 20px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    float: none;
+    font-size: 28px;
+    line-height: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.name, .password {
+    position: relative;
+    height: 30px;
+    width: 310px;
+    text-align: center;
+    margin: 10px 50px;
+}
+
+label {
+    padding: 0;
+    float: left;
+    font-size: 20px;
+}
+
+input {
+    padding: 0;
+    margin: 0;
+    float: right;
+    border: 1px solid #0000;
+    border-radius: 10px;
+    text-indent: 8px;
+}
+
+input:hover {
+    border: 1px solid rgb(0, 247, 255);
+}
+
+.form-control {
+    height: 25px;
+    width: 200px;
+}
+
+span {
+    width: 80px;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    left: 330px;
+}
+
+span a {
+    color: rgba(51, 51, 51, 0.76);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(247, 115, 8);
+}
+
+.btn {
+    height: 50px;
+    padding: 20px;
+}
+
+button {
+    width: 130px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: rgb(189, 182, 245);
+}
+
+.sub {
+    background-color: rgb(158, 233, 158);
+    border-radius: 10px;
+}
+
+.res {
+    background-color: rgb(242, 255, 242);
+    border-radius: 10px;
+}
